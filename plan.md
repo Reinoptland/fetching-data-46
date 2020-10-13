@@ -35,6 +35,6 @@ Storage: in the state of component
 - [x] Make a Component
 - [x] Use the component in App.js
 - [x] Define a state (where the data will be stored)
-- [] Make a request to the api
+- [x] Make a request to the api
 - [] Update the state (once we have the data) -> setter
 - [] Display the data
