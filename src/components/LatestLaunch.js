@@ -15,7 +15,9 @@ export default function LatestLaunch() {
         "https://api.spacexdata.com/v4/launches/latest"
       );
 
-      console.log(response);
+      console.log(response.data);
+      // set the state
+      setLaunchData(response.data);
     }
 
     getLaunchData();
