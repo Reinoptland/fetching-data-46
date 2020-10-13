@@ -37,4 +37,4 @@ Storage: in the state of component
 - [x] Define a state (where the data will be stored)
 - [x] Make a request to the api
 - [x] Update the state (once we have the data) -> setter
-- [] Display the data
+- [x] Display the data

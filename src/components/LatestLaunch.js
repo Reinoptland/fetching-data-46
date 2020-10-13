@@ -27,5 +27,14 @@ export default function LatestLaunch() {
     return <h1>Loading</h1>;
   }
 
-  return <div>Hello World</div>;
+  const message =
+    launchData.success === true ? "Elon did a thing" : "Elon did a stupid";
+
+  return (
+    <div>
+      <h1>{launchData.name}</h1>
+      <img src={launchData.links.patch.small} />
+      <h4>{message}</h4>
+    </div>
+  );
 }
